@@ -16,7 +16,7 @@ You may have to run
 First check whether the dependencies have been installed, then follow the instructions down below.
 
 ## auto_job_offer_checker.py 
-Open the file in a text editor, enter your credentials and then set up your computer to run this script periodically (see https://www.jcchouinard.com/python-automation-using-task-scheduler/ ).
+Open the file in a text editor, enter your credentials (be sensible about this, it's probably a better idea to create a throwaway e-mail address for this purpose since you'll be storing your credentials in plaintext) and then set up your computer to run this script periodically (see https://www.jcchouinard.com/python-automation-using-task-scheduler/ ).
 
 ## man_job_offer_checker.py 
 Open the file in a text editor, enter your credentials and then run the script whenever you want to check for vacancy.
