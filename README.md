@@ -20,5 +20,9 @@ Now ensure your Google Account settings allow insecure apps to access your accou
 ## auto_job_offer_checker.py 
 Open the file in a text editor, enter your credentials (be sensible about this, it's probably a better idea to create a throwaway e-mail address for this purpose since you'll be storing your credentials in plaintext) and then set up your computer to run this script periodically (see https://www.jcchouinard.com/python-automation-using-task-scheduler/ ).
 
+For Linux users, you can for example add the following line to your crontab tasks with `crontab -e` to run this script every hour. 
+
+`30 * * * * python3 ~/Documents/Scripts/auto_job_offer.py`
+
 ## man_job_offer_checker.py 
 Open the file in a text editor, enter your credentials and then run the script whenever you want to check for vacancy.
